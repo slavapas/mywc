@@ -56,6 +56,33 @@ section {
     padding: 3rem 0;
 }
 
+.widget,
+.widget ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget{
+    border: 1px solid #999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding: 1.5rem;
+}
+
+.sticky-top{
+    top:50px;
+}
+
+.blog-post{
+    padding:1rem 0;
+}
+
+
+
+
+
+
+
 
 /*************************************************************************/
 /*Media Query*/

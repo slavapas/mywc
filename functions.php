@@ -34,3 +34,13 @@ register_nav_menus(
 add_image_size('post_image', 1100, 750, true);
 
 // add widget
+register_sidebar(
+	array(
+		'name'          =>'Page Sidebar',
+		'id'            =>'page-sidebar',
+		'class'         =>'',
+		'before-title'  =>'<h4>',
+		'after-title'   =>'</h4>'
+	)
+);
+
